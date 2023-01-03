@@ -1,0 +1,60 @@
+.head-up {
+  height: 50px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.head-up ul {
+  display: flex;
+  list-style: none;
+  gap: 13px;
+  color: gray;
+  font-size: 15px;
+}
+.logo img {
+  width: 150px;
+  padding: 10px;
+}
+
+.search {
+  margin: 8px;
+  width: 400px;
+  height: 30px;
+}
+.search-btn {
+  height: 30px;
+}
+.login {
+  height: 30px;
+}
+.sign {
+  height: 30px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.buttons {
+  margin: auto 0;
+}
+
+.line {
+  background-color: orange;
+  height: 3px;
+}
+
+.left-side {
+  height: 1000px;
+  border: solid red;
+  width: 200px;
+}
+
+.right-side {
+  height: 1000px;
+  border: solid green;
+  width: 1000px;
+}
+
+.body {
+  display: flex;
+}
