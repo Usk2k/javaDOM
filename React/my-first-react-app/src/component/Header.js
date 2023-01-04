@@ -2,7 +2,7 @@ import "./../styles/header.css";
 import Body from "./Body";
 export default function Header() {
   return (
-    <div className="Head">
+    <div className="container">
       <div className="line"></div>
       <header className="head-up">
         <div className="logo">
