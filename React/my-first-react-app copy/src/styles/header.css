@@ -1,0 +1,192 @@
+.head-up {
+  height: 50px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.head-up ul {
+  display: flex;
+  list-style: none;
+  gap: 13px;
+  color: gray;
+  font-size: 15px;
+}
+.logo img {
+  width: 150px;
+  padding: 10px;
+}
+
+.search {
+  margin: 8px;
+  width: 400px;
+  height: 30px;
+}
+.search-btn {
+  height: 30px;
+}
+.login {
+  height: 30px;
+}
+.sign {
+  height: 30px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.buttons {
+  margin: auto 0;
+}
+
+.line {
+  background-color: orange;
+  height: 3px;
+}
+
+.body {
+  display: flex;
+}
+
+.left-side {
+  height: 1000px;
+  border: solid red;
+  width: 200px;
+  display: inline-block;
+}
+
+.left-side a {
+  color: gray;
+}
+
+.left-side li {
+  list-style: none;
+  font-size: 15px;
+  color: gray;
+  display: block;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: auto 0;
+}
+
+.question img {
+  width: 30px;
+  height: 30px;
+  margin: auto 0;
+  margin-left: 20px;
+}
+.question div {
+  background-color: orange;
+  width: 3px;
+}
+.star {
+  display: flex;
+
+  justify-content: center;
+}
+.star img {
+  width: 20px;
+  height: 20px;
+  margin: auto 0;
+  padding: 2px;
+}
+
+.collect p {
+  font-size: 10px;
+}
+
+.right-side {
+  height: 1000px;
+  border: solid green;
+  width: 300px;
+}
+
+.mid {
+  height: 1000px;
+  border: solid gold;
+  width: 1000px;
+}
+
+.team {
+  border: solid rgba(0, 0, 0, 0.2) 2px;
+  width: 200px;
+  height: 300px;
+}
+
+.team-text {
+  display: inline;
+  font-size: 15px;
+}
+.team-btn1 {
+  background-color: orange;
+  color: white;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.team-btn2 {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: gray;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.team img {
+  width: 80px;
+}
+
+.mid-head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mid-btn1 {
+  height: 40px;
+  background-color: #0a95ff;
+  color: white;
+  border: solid blue;
+  margin: auto 0;
+  border-radius: 3px;
+}
+
+.head2 {
+  display: flex;
+}
+
+.head2-flexbox {
+  height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.head2-flexbox div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 1px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
